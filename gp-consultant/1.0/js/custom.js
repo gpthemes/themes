@@ -8,9 +8,16 @@
 		});
 		
 		$("img.scrolltop").click(function () {
-        $("html, body").animate({
-            scrollTop: 0
-        }, "slow");
-    });
-    $('.flexslider').flexslider();
+			$("html, body").animate({
+				scrollTop: 0
+			}, "slow");
+		});
+		
+		if($('.flexslider').length>0)
+		$('.flexslider').flexslider();
+		
+		$('.mmenu').on('change', function(){
+			window.location.href = $(this).val();
+		});
 	});
+	
