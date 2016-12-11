@@ -70,6 +70,16 @@
 	h1.page-title{
 		font-size:24px;
 	}
+	.gp_t .testimonial-list .testimonial{
+		width:100%;
+	}
+	.gp_t .img-wrapper .testimonial_img_hover h3{
+		font-size:16px;
+		margin-bottom:4px;
+	}
+	.gp_t .img-wrapper .testimonial_img_hover p{
+		font-size:12px;
+	}
 }
 
 
