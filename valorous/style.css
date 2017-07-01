@@ -1,0 +1,51 @@
+/*
+ Theme Name:   
+ Theme URI:    
+ Description:  
+ Author:       Fahad Mahmood
+ Author URI:   https://profiles.wordpress.org/fahadmahmood
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  
+ Tags: Front Page, Testimonials, Videos, Archives, Tags, Pages, Posts, Categories, Breadcrumbs, Meta, Sidebars, Widgets
+*/
+.logged-in .main_h.sticky{
+	top: 32px;
+}
+.custom-logo {
+	max-height: 52px;
+	width: auto;
+}
+.title-1 div{
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	width:60%;
+	margin:0 auto;
+}
+.vsidebars_helper{
+	width:100%;
+	float:left;
+	text-align:center;
+	font-size:18px;
+	color:#FF0;
+	background:rgba(0,0,0,0.5);
+	padding:100px 40px;
+	border:1px solid rgba(255,255,255, 0.5);
+	border-radius: 8px;
+}
+.vsidebars_helper h6{
+	font-size:18px;
+	display:inline;
+	padding:0;
+	margin:0;
+	color:#fff;
+}
+.vsidebars_helper a{
+	text-decoration:underline;
+	color:#fff;
+}
+.vsidebars_helper a:hover{
+	color:#FF3;
+}
